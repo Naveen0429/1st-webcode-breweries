@@ -1,0 +1,82 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.web-instructions{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke(203, 203, 203);
+}
+.web-instructions:hover{
+    color:rgb(146, 59, 59);
+}
+.fetchDataBtn{
+    width:200px;
+    height: 50px;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    font-size: 27px;
+    color: whitesmoke (88, 82, 82);
+    background-color: rgb(214, 213, 214);
+}
+.fetchDataBtn:hover{
+    background-color: rgb(241, 235, 241);
+    transform: scale(1.1);
+}
+.searchInput{
+    width:300px;
+    height:35px;
+    margin-right:17px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: grey;
+
+}
+.submitBtn{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color:rgb(88, 82, 82);
+    background-color: rgb(229, 181, 230);
+}
+
+.submitBtn:hover{
+    background-color: rgb(197, 138, 253);
+    transform: scale(1.1);
+}
+.result{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    width:330px;
+    height:300px;
+    border:2px solid black;
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgb(229, 181, 230);
+}  
+.card:hover{
+    box-shadow: 5px 5px 2px rgb(162, 168, 252);
+    transform: scale(1.1);
+}
+
+.card-title{
+    padding:0 20px;
+}
+
+
